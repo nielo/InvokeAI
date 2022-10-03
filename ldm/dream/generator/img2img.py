@@ -20,6 +20,7 @@ class Img2Img(Generator):
         Return value depends on the seed at the time you call it.
         """
 
+        print(f'DEBUG: init_image = {init_image}')
         sampler.make_schedule(
             ddim_num_steps=steps, ddim_eta=ddim_eta, verbose=False
         )
