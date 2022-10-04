@@ -627,6 +627,7 @@ class Generate:
                     '>>          a transparency mask, or provide mask explicitly using --init_mask (-M).'
                 )
             # this returns a torch tensor
+            print(f'DEBUG: fit={fit}')
             init_mask = self._create_init_mask(image,width,height,fit=fit)
             
         if (image.width * image.height) > (self.width * self.height):
@@ -886,7 +887,7 @@ class Generate:
         image = 2.0 * image - 1.0
         return image.to(self.device)
 
-    def _create_init_mask(self, image):
+    def _create_init_mask(self, image, width, height, fit=True):
         # convert into a black/white mask
         image = self._image_to_mask(image)
         image = image.convert('RGB')
