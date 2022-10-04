@@ -1,0 +1,21 @@
+banana sushi -Ak_lms
+banana sushi -Aplms
+banana sushi -Addim
+banana sushi -S42
+banana sushi -S42
+banana sushi -W640 -H480
+banana sushi --outdir outputs/preflight/alternate
+banana sushi -S42 -v0.1 -n3
+banana sushi -S42 -v0.1 -n3 -g
+banana sushi --seamless
+banana sushi -H960 -W960 --hires
+old sea captain with crow on shoulder -I Lincoln-and-Parrot-512.png
+old sea captain with crow on shoulder -I Lincoln-and-Parrot-512-transparent.png
+old sea captain with crow on shoulder -I Lincoln-and-Parrot-512.png -A plms
+old sea captain with crow on shoulder -I Lincoln-and-Parrot-512.png -A k_euler_a
+!fix ./curly.png -U2 -G0.8
+!fix ./curly.png -c top 64
+!fix ./curly.png -D top 64
+!fix ./curly.png --embiggen 2.5
+
+
