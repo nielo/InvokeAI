@@ -627,7 +627,6 @@ class Generate:
                     '>>          a transparency mask, or provide mask explicitly using --init_mask (-M).'
                 )
             # this returns a torch tensor
-            print(f'DEBUG: fit={fit}')
             init_mask = self._create_init_mask(image,width,height,fit=fit)
             
         if (image.width * image.height) > (self.width * self.height):
