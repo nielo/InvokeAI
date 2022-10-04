@@ -16,7 +16,8 @@ old sea captain with crow on shoulder -I Lincoln-and-Parrot-512.png -A k_euler_a
 !fix ./curly.png -U2 -G0.8
 !fix ./curly.png -c top 64
 !fix ./curly.png -D top 64
-!fix ./curly.png --embiggen 2.5 -A plms
+!fix ./curly.png --embiggen 2.5
+
 
 
 
